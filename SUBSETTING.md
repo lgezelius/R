@@ -1,4 +1,4 @@
-The R documentaion for the subset function states "For programming it is better to use the standard subsetting functions like [, and in particular the non-standard evaluation of argument subset can have unanticipated consequences."  The following are some examples of using [ to subset R data frames, from the perspective of a someone familiar with SQL:
+The R documentation for the subset function states "For programming it is better to use the standard subsetting functions like [, and in particular the non-standard evaluation of argument subset can have unanticipated consequences."  The following are some examples of using [ to subset R data frames, from the perspective of a someone familiar with SQL:
  
 ```
 > # create a table (data frame)
