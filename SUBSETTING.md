@@ -50,11 +50,11 @@ The R documentation for the subset function states "For programming it is better
 3 BMW 328i xDrive 2013
 4   Tesla Model S 2013
 > 
-> # select engine from cars (the result a numeric vector)
+> # select engine from cars (the result is a numeric vector)
 > cars[, c("engine")]
 [1] 2.0 1.8 2.0  NA
 > 
-> # select model from cars (the result character vector)
+> # select model from cars (the result is a character vector)
 > cars[, c("model")]
 [1] "Audi A4"         "Mercedes C250"   "BMW 328i xDrive" "Tesla Model S"  
 > 
