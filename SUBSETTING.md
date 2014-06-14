@@ -90,7 +90,7 @@ NA            <NA>   NA
 2   Mercedes C250 2014   4    1.8
 4   Tesla Model S 2013  NA     NA
 > 
-> # select model, cyl, engine from cars where order by model
+> # select model, cyl, engine from cars order by model
 > cars[order(cars$model), c("model", "cyl", "engine")]
             model cyl engine
 1         Audi A4   4    2.0
