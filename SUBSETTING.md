@@ -43,8 +43,12 @@ The R documentaion for the subset function states "For programming it is better 
 4 Tesla Model S 2013  NA     NA
 > 
 > # select model, year from cars (the result is a table aka data.frame)
-> class(cars[, c("model", "year")])
-[1] "data.frame"
+> cars[, c("model", "year")]
+            model year
+1         Audi A4 2013
+2   Mercedes C250 2014
+3 BMW 328i xDrive 2013
+4   Tesla Model S 2013
 > 
 > # select engine from cars (the result a numeric vector)
 > cars[, c("engine")]
