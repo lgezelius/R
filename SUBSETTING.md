@@ -59,7 +59,7 @@ The R documentaion for the subset function states "For programming it is better 
           model year
 2 Mercedes C250 2014
 > 
-> # select model, year from cards where year = 2014 and engine = 2.0
+> # select model, year from cars where year = 2014 and engine = 2.0
 > cars[cars$year==2013&which(cars$engine==2.0), c("model","year")]
             model year
 1         Audi A4 2013
@@ -71,7 +71,7 @@ The R documentaion for the subset function states "For programming it is better 
 1         Audi A4 2013
 3 BMW 328i xDrive 2013
 > 
-> # select model, year from cards where year = 2014 and (engine = 2.0 or engine is NA)
+> # select model, year from cars where year = 2014 and (engine = 2.0 or engine is NA)
 > cars[cars$year==2013&cars$engine==2.0, c("model", "year")]
              model year
 1          Audi A4 2013
